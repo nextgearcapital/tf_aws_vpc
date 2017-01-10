@@ -1,8 +1,7 @@
 vpc terraform module
 ===========
 
-A terraform module to provide a VPC in AWS.
-
+A terraform module to provide a VPC in AWS: [tf_aws_vpc](https://github.com/terraform-community-modules/tf_aws_vpc)
 
 Module Input Variables
 ----------------------
@@ -30,7 +29,7 @@ Usage
 
 ```hcl
 module "vpc" {
-  source = "github.com/terraform-community-modules/tf_aws_vpc"
+  source = "github.com/nextgearcapital/tf_aws_vpc"
 
   name = "my-vpc"
 
