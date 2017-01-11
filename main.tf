@@ -1,5 +1,3 @@
-/* hi */
-
 resource "aws_vpc" "mod" {
   cidr_block           = "${var.cidr}"
   enable_dns_hostnames = "${var.enable_dns_hostnames}"
